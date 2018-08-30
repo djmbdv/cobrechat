@@ -6,7 +6,7 @@ import (
  "fmt"
  "io/ioutil" )
 func main() {
-	 res, err := http.Get("https://diakonia-ec.org/test.php")
+	 res, err := http.Get("127.0.0.1/cobregram")
 	if err != nil {
 	    log.Fatal(err)
 	}
